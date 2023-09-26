@@ -26,11 +26,9 @@
 											<h2>AUDIO PROMPT TUNING FOR UNIVERSAL SOUND SEPARATION</h2>
 										</header>
 										<p>Submitted to ICASSP 2024</p>
-										<p>Authors: Yuzhuo Liu, Xubo Liu, Yan Zhao, Yuanyuan Wang, Rui Xia, Pingchuan Tain, Yuxuan Wang</p>
-										<p>Speech, Audio & Music Intelligence (SAMI) Group, ByteDance Inc</p>
-										<p>Centre for Vision, Speech and Signal Processing (CVSSP), University of Surrey</p>
-										<p>Shenzhen International Graduate School, Tsinghua University</p>
-										<p>Email: chenhangting17@mails.ucas.ac.cn</p>
+										<p>Authors: Yuzhuo Liu<sub>1</sub>, Xubo Liu, Yan Zhao, Yuanyuan Wang, Rui Xia, Pingchuan Tain, Yuxuan Wang</p>
+										<p>1. Speech, Audio & Music Intelligence (SAMI) Group, ByteDance Inc</p>
+										<p>Email: yuzhuoliu1994@outlook.com</p>
 										<p>Abstract:  Universal sound separation (USS) is a task to separate arbitrary sounds from an audio mixture. Existing USS systems are capable of separating arbitrary sources, given a few examples of the target sources as queries. However, separating arbitrary sounds with a single system is challenging, and the robustness is not always guaranteed. 
 											In this work, we propose audio prompt tuning (APT), a simple yet effective approach to enhance existing USS systems. Specifically, APT improves the separation performance of specific sources through training a small number of prompt parameters with limited data, while maintaining the generalization of the USS model by keeping its parameters frozen. 
 											We evaluate the proposed method on MUSDB18 and ESC-50 datasets. Compared with the baseline model, APT can improve the signal-to-distortion ratio performance by 0.67 dB and 2.06 dB using the full training set of two datasets. Moreover, APT with only 5 audio samples even outperforms the baseline systems utilizing full training data on the ESC-50 dataset, indicating the great potential of few-shot APT.
@@ -83,7 +81,7 @@
 												</tbody>
 																								<tbody>
 													<tr style="border-top:1px solid black">
-														<td><center>Crying_baby</center></td>
+														<td><center>Crying_baby_0</center></td>
 														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
 															<source src="demos_audios/mixtures/4-59579-A-20.wav" ></audio></td>
 														  <td><audio controls class="audio-player" preload="metadata" style="width:180px;">
@@ -95,7 +93,7 @@
 												</tbody>
 																								<tbody>
 													<tr style="border-top:1px solid black">
-														<td><center>Crying_baby</center></td>
+														<td><center>Crying_baby_1</center></td>
 														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
 															<source src="demos_audios/mixtures/4-59579-B-20.wav" ></audio></td>
 														  <td><audio controls class="audio-player" preload="metadata" style="width:180px;">
@@ -131,7 +129,7 @@
 												</tbody>
 																								<tbody>
 													<tr style="border-top:1px solid black">
-														<td><center>Siren</center></td>
+														<td><center>Siren_0</center></td>
 														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
 															<source src="demos_audios/mixtures/4-80761-A-42.wav" ></audio></td>
 														  <td><audio controls class="audio-player" preload="metadata" style="width:180px;">
@@ -143,7 +141,7 @@
 												</tbody>
 																								<tbody>
 													<tr style="border-top:1px solid black">
-														<td><center>Siren</center></td>
+														<td><center>Siren_1</center></td>
 														<td><audio controls class="audio-player" preload="metadata" style="width:180px;">
 															<source src="demos_audios/mixtures/4-90014-A-42.wav" ></audio></td>
 														  <td><audio controls class="audio-player" preload="metadata" style="width:180px;">
